@@ -1,0 +1,7 @@
+# Optional: research-grade local models
+#   INTENT_BACKEND=zeroshot, SUMMARIZER_BACKEND=bart, FAITHFULNESS_BACKEND=nli
+-r requirements.txt
+torch>=2.2
+transformers>=4.40
+sentencepiece
+spacy>=3.7   # then: python -m spacy download en_core_web_sm  (better Action–Object extraction)

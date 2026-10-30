@@ -1,0 +1,9 @@
+# Core service (enough for the lightweight / LLM-API configuration)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+requests>=2.31
+
+# Testing
+pytest>=8.0
+httpx>=0.27
